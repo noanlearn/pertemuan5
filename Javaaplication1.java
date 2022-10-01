@@ -102,7 +102,7 @@ public class Javaaplication1 {
         Boolean done;
 
         // tampilkan data
-        System.out.println("Jumlah data: " + p.size()); //ini error
+        System.out.println("Jumlah data: " + p.size()); 
         System.out.println("------------------------------------------------------------------------");
         System.out.printf("| %-3s | %-10s | %-10s | %-10s | %-7s | %-3s | %-7s |", 
             "No",
