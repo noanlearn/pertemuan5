@@ -150,8 +150,11 @@ public class Javaaplication1 {
     private static Boolean cekPembayaran(Integer total, Integer total_bayar) {
         Boolean done = false;
         if (total_bayar >= total) {
-            System.out.println("Kembalian Anda      = Rp " + (total_bayar - total));
+            if ((total_bayar - total) != 0) {
+                System.out.println("Kembalian Anda      = Rp " + (total_bayar - total));
+            }
             done = true;
+            
         } else {
             System.out.println("--- Mohon maaf, uang Anda tidak cukup! ---");
             System.err.println();
